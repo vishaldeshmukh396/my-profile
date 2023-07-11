@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="e:\angular\HTML\4.png" type="image/x-icon">
     <style>header{background-color: aqua;color: red;} 
@@ -13,12 +18,15 @@ a{text-decoration: none;}
    body{ border: 5px solid red; padding:10px 10px 10px 10px ;} 
    .header{margin-right: 40px;} 
    
-   .profile{background-color: aqua;color: red; text-align: center;}
-   .navi li{list-style: none; display: inline-block; margin-right: 60px;}
-   .header li{display: inline-block; list-style: none; margin-right: 40px;}
+   .profile{background-color: aqua;color: red; text-align: center; font-family: 'Poppins', sans-serif; text-transform: uppercase;}
+   .navi li{list-style: none; display: inline-block; margin-right: 60px;font-family: 'Poppins', sans-serif;  }
+   .header li {display: inline-block;}
    .footer li{list-style: none;
       display: inline-block; 
       margin-right: 40px; color: brown; }
+      #pfooter{font-family: 'Poppins', sans-serif;}
+      #icon{font-family: "Roboto", sans-serif; margin-right: 30px;}
+      .icon{font-family: "Roboto", sans-serif;}
    </style>
 </head>
 </head>
@@ -26,10 +34,10 @@ a{text-decoration: none;}
     <h2 class="profile">My Profile</h2>
     <header>
         <ul class="header">
-    <li><a><i class="fa fa-user-circle" aria-hidden="true"> Vishal Deshmukh</i></a></li>
-    <li><a><i class="fa fa-address-book-o" aria-hidden="true">+91 9665464885</i></a></li>
-    <li><a><i class="fa fa-envelope" aria-hidden="true">vishaldeshmukh@gmail.com</i></a></li>
-    <li><span class="header" ><button><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Download Resume</button></span></li></ul></header>
+    <li><a><i class="fa fa-user-circle" aria-hidden="true"><span id="icon" >Vishal Deshmukh</span></i></a></li>
+    <li><a><i class="fa fa-address-book-o" aria-hidden="true" ><span id="icon">+91 9665464885 </span></i></a></li>
+    <li><a><i class="fa fa-envelope" aria-hidden="true"><span id="icon" > vishaldeshmukh@gmail.com</span></i></a></li>
+    <li><span class="header"><i class="fa fa-download" aria-hidden="true"></i>&nbsp;<span id="icon" > Download Resume</span></li></ul></header>
     <br><br>
     <nav><ul  class="navi"><li ><a href="professionalSum.html" target="Myframe">HOME</a></li>
         <li><a href="technologyStack.html" target="Myframe">TECHSTACK</a></li>
@@ -45,7 +53,7 @@ a{text-decoration: none;}
     <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
     <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li></u>
    </footer>
-   <p>Copyright &copy; 2023 Vishal Deshmukh, Inc. All rights reserved.</p>
+   <p id="pfooter">Copyright &copy; 2023 Vishal Deshmukh, Inc. All rights reserved.</p>
 </body>
 
 </html>
