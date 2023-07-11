@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vEducation-Transforming Online Education</title>
+    <style>
+      #man {
+        background: url(assets/jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+        height: 800px;
+      }
+      .navbar {
+        display: flex;
+      }
+      #rightnav {
+        width: 800px;
+        text-align: end;
+        margin-top: 10px;
+      }
+      .btnbtn-sm {
+        background: none;
+        font-size: 20px;
+        color: white;
+      }
+
+      .nav-list {
+        width: 800px;
+        list-style: none;
+        display: flex;
+      }
+      .img {
+        width: 50px;
+        border: solid white;
+        border-radius: 50px;
+        margin-right: 100px;
+      }
+      #a {
+        color: rgb(237, 231, 231);
+        text-decoration: none;
+        margin: 20px;
+      }
+      .search {
+        padding: 10px;
+        font-size: large;
+        border-radius: 9px;
+        border: 2px solid gray;
+        
+      }
+      #para {
+        color: white;
+      }
+      #heading {
+        color: white;
+        margin-left: 5px;
+      }
+      #buttonone {
+        margin-right: 50px;
+        border-radius: 3px;
+        color: white;
+        background: none;
+        font-size: 20px;
+      }
+      #buttontwo {
+        color: white;
+        background: none;
+        font-size: 20px;
+      }
+      #imageedu {
+        border-radius: 250px;
+        border: solid white;
+        width: 200px;
+      }
+
+      #secone {
+        margin-left: 40%;
+        margin-top: 40px;
+      }
+      #ihtml{margin-left: 25%;}
+      #form{margin-top: 40px;margin-left: 35%;}
+      #lable{margin-bottom: 30px; font-size: 40px;border-radius: 8px;}
+      #sumit{font-size:30;margin-top: 30px;border-radius: 6px;}
+    </style>
+  </head>
+
+  <body>
+    <main id="man">
+      <nav class="navbar">
+        <ul class="nav-list">
+          <div class="logo">
+            <img src="assets/laptop image.jpeg" alt="logo" class="img" />
+          </div>
+          <li><a href="#home" id="a"> HOME</a></li>
+          <li class><a href="#about" id="a">ABOUT</a></li>
+          <li><a href="#services" id="a">SERVICES</a></li>
+          <li><a href="#contact us" id="a">CONTACT US</a></li>
+        </ul>
+        <div id="rightnav">
+          <input type="text" class="search" search />
+          <button class="btnbtn-sm">search</button>
+        </div>
+      </nav>
+      <section>
+        <div id="secone">
+          <h2 id="heading">Deatail About Our Courses :</h2>
+          <img src="assets/images.jpg" alt="Education logo" id="imageedu" />
+          <p id="para">
+            1.HTML<br />2.CSS<br />3.Java<br />4.Python<br />5.Angular<br />
+            For more details please watch below video and subscribe our channel.
+          </p>
+          <button id="buttonone">Subscribe</button
+          ><button class="button 2" id="buttontwo">Watch video</button>
+        </div>
+      </section>
+    </main>
+    <section id="sectiontwo"><h2>Information About HTML :</h2>
+    <p id="phtml">HTML (HyperText Markup Language) is the code that is used to structure a web page and its content.For example,
+       content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.
+       The main parts of our element are as follows:
+
+       The opening tag: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect — in this case where the paragraph begins.
+       The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.
+       The content: This is the content of the element, which in this case, is just text.
+       The element: The opening tag, the closing tag, and the content together comprise the element. </p>
+       <img src="assets/lenovo-laptops-thinkpad-t16-gen-1-16-intel-hero.webp" alt="image laptop" id="ihtml"></section>
+          <hr>
+          <section><form id="form"><lable><input type="text" placeholder="Enter Your Full Name" id="lable"></lable>
+         <br> <lable><input type="number" placeholder="Enter Your Mobile Number"id="lable" ></lable>
+         <br> <lable><input type="email" placeholder="Enter Your Email"id="lable" ></lable>
+         <br><button id="submit">Submit</button></form></section>
+      </body>
+</html>

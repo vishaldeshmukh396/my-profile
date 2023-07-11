@@ -9,32 +9,41 @@
     <link rel="shortcut icon" href="e:\angular\HTML\4.png" type="image/x-icon">
     <style>header{background-color: aqua;color: red;} 
     #vi{text-decoration: none; }
-    #one,#two,#three,#four{color: red;}
-    </style>
+a{text-decoration: none;}
+   body{ border: 5px solid red; padding:10px 10px 10px 10px ;} 
+   .header{margin-right: 40px;} 
+   
+   .profile{background-color: aqua;color: red; text-align: center;}
+   .navi li{list-style: none; display: inline-block; margin-right: 60px;}
+   .header li{display: inline-block; list-style: none; margin-right: 40px;}
+   .footer li{list-style: none;
+      display: inline-block; 
+      margin-right: 40px; color: brown; }
+   </style>
 </head>
 </head>
-
 <body>
-    <h2>My profile</h2>
+    <h2 class="profile">My Profile</h2>
     <header>
-    <a><i class="fa fa-user-circle" aria-hidden="true"> Vishal Deshmukh</i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a><i class="fa fa-address-book-o" aria-hidden="true">+91 9665464885</i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a><i class="fa fa-envelope" aria-hidden="true">vishaldeshmukh@gmail.com</i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <span><button><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Download Resume</button></span></header>
+        <ul class="header">
+    <li><a><i class="fa fa-user-circle" aria-hidden="true"> Vishal Deshmukh</i></a></li>
+    <li><a><i class="fa fa-address-book-o" aria-hidden="true">+91 9665464885</i></a></li>
+    <li><a><i class="fa fa-envelope" aria-hidden="true">vishaldeshmukh@gmail.com</i></a></li>
+    <li><span class="header" ><button><i class="fa fa-download" aria-hidden="true"></i>&nbsp;Download Resume</button></span></li></ul></header>
     <br><br>
-    <nav> <a href="professionalSum.html" target="Myframe"id="vi" >HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="technologyStack.html" target="Myframe" id="vi">TECHSTACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="projectdetails.html" target="Myframe"id="vi" >PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="educationDet.html" target="Myframe"id="vi">EDUCATION</a>&nbsp;&nbsp;&nbsp;
-        <a href="aboutme.html" target="Myframe"id="vi">ABOUT ME</a></nav><br><br>
+    <nav><ul  class="navi"><li ><a href="professionalSum.html" target="Myframe">HOME</a></li>
+        <li><a href="technologyStack.html" target="Myframe">TECHSTACK</a></li>
+        <li><a href="projectdetails.html" target="Myframe">PROJECT</a></li>
+        <li><a href="educationDet.html" target="Myframe">EDUCATION</a></li>
+        <li><a href="aboutme.html" target="Myframe">ABOUT ME</a></li> </ul></nav><br><br>
     
     <iframe width="1000" height="400" name="Myframe" frameborder="0" src="professionalSum.html"></iframe><br>
    <footer>
-    <span class="icon">Follow Me:</span>&nbsp; <a href="" id="one"><i class="fa fa-github"
-            aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="" id="two"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-    <a href="" id="three"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-    <a href="" id="four"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <span class="icon">Follow Me:</span>&nbsp; <ul class="footer"> <li><a href=""><i class="fa fa-github"
+            aria-hidden="true"></i></a></li>
+    <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true" ></i></a></li>
+    <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li></u>
    </footer>
    <p>Copyright &copy; 2023 Vishal Deshmukh, Inc. All rights reserved.</p>
 </body>
